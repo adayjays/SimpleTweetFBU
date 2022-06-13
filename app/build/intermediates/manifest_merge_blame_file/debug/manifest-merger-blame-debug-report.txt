@@ -1,0 +1,98 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.codepath.apps.restclienttemplate"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:7:5-67
+11-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+12-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:8:5-81
+12-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:8:22-78
+13
+14    <application
+14-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:10:5-42:19
+15        android:name="com.codepath.apps.restclienttemplate.TwitterApp"
+15-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:11:9-35
+16        android:allowBackup="true"
+16-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:12:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.5.0] C:\Users\preci\.gradle\caches\transforms-2\files-2.1\cc5e9dcdc56dc39042f72c501235e83f\core-1.5.0\AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:icon="@drawable/ic_launcher"
+19-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:13:9-45
+20        android:label="@string/app_name"
+20-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:14:9-41
+21        android:testOnly="true"
+22        android:theme="@style/AppTheme" >
+22-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:15:9-40
+23        <activity
+23-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:16:9-18:40
+24            android:name="com.codepath.apps.restclienttemplate.ComposeActivity"
+24-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:17:13-44
+25            android:exported="false" />
+25-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:18:13-37
+26        <activity
+26-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:19:9-21:40
+27            android:name="com.codepath.apps.restclienttemplate.TimelineActivity"
+27-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:20:13-45
+28            android:exported="false" />
+28-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:21:13-37
+29        <activity
+29-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:22:9-41:20
+30            android:name="com.codepath.apps.restclienttemplate.LoginActivity"
+30-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:23:13-42
+31            android:label="@string/app_name"
+31-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:24:13-45
+32            android:theme="@style/AppTheme" >
+32-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:25:13-44
+33            <intent-filter>
+33-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:26:13-30:29
+34                <action android:name="android.intent.action.MAIN" />
+34-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:27:17-69
+34-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:27:25-66
+35
+36                <category android:name="android.intent.category.LAUNCHER" />
+36-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:29:17-77
+36-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:29:27-74
+37            </intent-filter>
+38            <intent-filter>
+38-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:31:13-40:29
+39                <action android:name="android.intent.action.VIEW" />
+39-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:32:17-69
+39-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:32:25-66
+40
+41                <category android:name="android.intent.category.DEFAULT" />
+41-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:34:17-76
+41-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:34:27-73
+42                <category android:name="android.intent.category.BROWSABLE" />
+42-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:35:17-78
+42-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:35:27-75
+43
+44                <data
+44-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:37:17-39:62
+45                    android:host="@string/intent_host"
+45-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:38:21-55
+46                    android:scheme="@string/intent_scheme" />
+46-->C:\Users\preci\Desktop\old copy of twiiter\SimpleTweet\app\src\main\AndroidManifest.xml:39:21-59
+47            </intent-filter>
+48        </activity>
+49
+50        <service
+50-->[androidx.room:room-runtime:2.3.0] C:\Users\preci\.gradle\caches\transforms-2\files-2.1\45bccaec7847db555da0e69f04f1af86\room-runtime-2.3.0\AndroidManifest.xml:25:9-28:40
+51            android:name="androidx.room.MultiInstanceInvalidationService"
+51-->[androidx.room:room-runtime:2.3.0] C:\Users\preci\.gradle\caches\transforms-2\files-2.1\45bccaec7847db555da0e69f04f1af86\room-runtime-2.3.0\AndroidManifest.xml:26:13-74
+52            android:directBootAware="true"
+52-->[androidx.room:room-runtime:2.3.0] C:\Users\preci\.gradle\caches\transforms-2\files-2.1\45bccaec7847db555da0e69f04f1af86\room-runtime-2.3.0\AndroidManifest.xml:27:13-43
+53            android:exported="false" />
+53-->[androidx.room:room-runtime:2.3.0] C:\Users\preci\.gradle\caches\transforms-2\files-2.1\45bccaec7847db555da0e69f04f1af86\room-runtime-2.3.0\AndroidManifest.xml:28:13-37
+54    </application>
+55
+56</manifest>
