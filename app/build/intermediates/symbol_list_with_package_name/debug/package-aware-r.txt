@@ -1099,6 +1099,8 @@ color cardview_light_background
 color cardview_shadow_end_color
 color cardview_shadow_start_color
 color checkbox_themeable_attribute_color
+color colorPrimary
+color colorWhite
 color design_bottom_navigation_shadow_color
 color design_box_stroke_color
 color design_dark_default_color_background
@@ -1784,6 +1786,8 @@ drawable ic_mtrl_checked_circle
 drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
+drawable ic_tweeter
+drawable logo
 drawable material_cursor_drawable
 drawable material_ic_calendar_black_24dp
 drawable material_ic_clear_black_24dp
@@ -1919,6 +1923,7 @@ id bounceBoth
 id bounceEnd
 id bounceStart
 id btnTweet
+id buttonLogin
 id buttonPanel
 id cache_measures
 id callMeasure
@@ -2037,6 +2042,8 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageViewLogo
+id imageViewProfileImage
 id immediateStop
 id included
 id info
@@ -2154,6 +2161,7 @@ id progress_horizontal
 id radio
 id ratio
 id rectangles
+id recyclerViewTweets
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2161,7 +2169,6 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
-id rvTweets
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -2223,7 +2230,7 @@ id stretch
 id submenuarrow
 id submit_area
 id supportScrollUp
-id swipeContainer
+id swipeRefreshLayout
 id tabMode
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
@@ -2249,6 +2256,8 @@ id textSpacerNoButtons
 id textSpacerNoTitle
 id textStart
 id textTop
+id textViewTweetDescription
+id textViewUsername
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -2276,7 +2285,7 @@ id transition_transform
 id triangle
 id tvBody
 id tvScreenName
-id txtField
+id txtView
 id unchecked
 id uniform
 id unlabeled
@@ -2454,6 +2463,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+layout tweet
 menu login
 menu menu_main
 plurals mtrl_badge_content_description
@@ -2565,7 +2575,14 @@ string path_password_eye_mask_visible
 string path_password_strike_through
 string search_menu_title
 string status_bar_notification_info_overflow
+string text_limit
 string tweet
+string tweet_description
+string tweet_title
+string twitter_profile_image
+string why_twitter
+style ActionBar
+style ActionBar_Text
 style AlertDialog_AppCompat
 style AlertDialog_AppCompat_Light
 style AndroidThemeColorAccentYellow

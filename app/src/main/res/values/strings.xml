@@ -2,9 +2,13 @@
 <resources>
 
     <string name="app_name">SimpleTweet</string>
-    <string name="login_label">Log in</string>
-    <string name="intent_scheme">oauth</string>
-    <string name="intent_host">cprest</string>
+    <string name="login_label">Sign In</string>
+    <string name="intent_scheme">x-oauthflow-twitter</string>
+    <string name="intent_host">tweeter</string>
     <string name="tweet">Tweet</string>
-
+    <string name="twitter_profile_image">Twitter profile image</string>
+    <string name="tweet_title">Lorem Ipsum</string>
+    <string name="tweet_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua</string>
+    <string name="text_limit">Characters left: 0/280</string>
+    <string name="why_twitter">What\'s happening now?</string>
 </resources>

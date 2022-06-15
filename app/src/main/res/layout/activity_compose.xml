@@ -1,45 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
+<LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".ComposeActivity">
+    android:orientation="vertical"
+    tools:context="com.tweeter.assignment.ComposeActivity">
 
-
-    <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/txtField"
+    <EditText
+        android:id="@+id/etCompose"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:counterEnabled="true"
-        app:counterMaxLength="250"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="1dp"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="@string/why_twitter"
+        android:maxLength="280"
+        android:inputType="textMultiLine"
+        android:minLines="5"
+        android:autofillHints="@string/why_twitter" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
 
-        <EditText
-            android:id="@+id/etCompose"
-            android:layout_width="match_parent"
+        <TextView
+            android:id="@+id/txtView"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_gravity="center_vertical"
             android:layout_height="wrap_content"
-            android:ems="10"
-            android:gravity="start|top"
-            android:hint="What's Happening?"
-            android:inputType="textMultiLine"
-            android:minLines="5"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            android:layout_margin="5dp"
+            android:textSize="15dp"
+            android:text="@string/text_limit" />
 
-    </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:id="@+id/btnTweet"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:textSize="15dp"
+            android:textColor="@color/colorWhite"
+            android:backgroundTint="@android:color/holo_blue_light"
+            android:text="@string/tweet" />
+    </LinearLayout>
 
-    <Button
-        android:id="@+id/btnTweet"
-        android:layout_width="81dp"
-        android:layout_height="38dp"
-        android:layout_below="@+id/txtField"
-        android:layout_alignParentEnd="true"
-        android:layout_marginTop="5dp"
-        android:layout_marginEnd="5dp"
-        android:text="@string/tweet"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txtField" />
-</RelativeLayout>
+</LinearLayout>

@@ -1,13 +1,7 @@
-#Mon Jun 13 07:26:17 EDT 2022
-path.3=7/classes.dex
-path.2=1/classes.dex
-path.1=0/classes.dex
-path.0=classes.dex
-base.3=C\:\\Users\\preci\\Desktop\\old copy of twiiter\\SimpleTweet\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\7\\classes.dex
-base.2=C\:\\Users\\preci\\Desktop\\old copy of twiiter\\SimpleTweet\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\1\\classes.dex
-base.1=C\:\\Users\\preci\\Desktop\\old copy of twiiter\\SimpleTweet\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.0=C\:\\Users\\preci\\Desktop\\old copy of twiiter\\SimpleTweet\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-renamed.3=classes4.dex
-renamed.2=classes3.dex
+#Thu Jun 16 22:43:23 EAT 2022
+base.0=C\:\\Users\\bryanitur\\AndroidStudioProjects\\SimpleTweetFBU\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
+path.1=classes.dex
 renamed.1=classes2.dex
+path.0=classes.dex
 renamed.0=classes.dex
+base.1=C\:\\Users\\bryanitur\\AndroidStudioProjects\\SimpleTweetFBU\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\classes.dex

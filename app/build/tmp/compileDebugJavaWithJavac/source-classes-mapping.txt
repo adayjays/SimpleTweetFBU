@@ -1,34 +1,29 @@
-com/codepath/apps/restclienttemplate/models/User.java
- com.codepath.apps.restclienttemplate.models.User
-com/codepath/apps/restclienttemplate/ComposeActivity.java
- com.codepath.apps.restclienttemplate.ComposeActivity
- com.codepath.apps.restclienttemplate.ComposeActivity$1
- com.codepath.apps.restclienttemplate.ComposeActivity$1$1
-com/codepath/apps/restclienttemplate/TwitterClient.java
- com.codepath.apps.restclienttemplate.TwitterClient
-com/codepath/apps/restclienttemplate/TwitterApp.java
- com.codepath.apps.restclienttemplate.TwitterApp
-com/codepath/apps/restclienttemplate/LoginActivity.java
- com.codepath.apps.restclienttemplate.LoginActivity
- com.codepath.apps.restclienttemplate.LoginActivity$1
-com/codepath/apps/restclienttemplate/models/SampleModel.java
- com.codepath.apps.restclienttemplate.models.SampleModel
-com/codepath/apps/restclienttemplate/BuildConfig.java
- com.codepath.apps.restclienttemplate.BuildConfig
-com/codepath/apps/restclienttemplate/MyDatabase.java
- com.codepath.apps.restclienttemplate.MyDatabase
-com/codepath/apps/restclienttemplate/EndlessRecyclerViewScrollListener.java
- com.codepath.apps.restclienttemplate.EndlessRecyclerViewScrollListener
-com/codepath/apps/restclienttemplate/models/SampleModelDao.java
- com.codepath.apps.restclienttemplate.models.SampleModelDao
-com/codepath/apps/restclienttemplate/models/Tweet.java
- com.codepath.apps.restclienttemplate.models.Tweet
-com/codepath/apps/restclienttemplate/TweetAdapter.java
- com.codepath.apps.restclienttemplate.TweetAdapter
- com.codepath.apps.restclienttemplate.TweetAdapter$ViewHolder
-com/codepath/apps/restclienttemplate/TimelineActivity.java
- com.codepath.apps.restclienttemplate.TimelineActivity
- com.codepath.apps.restclienttemplate.TimelineActivity$1
- com.codepath.apps.restclienttemplate.TimelineActivity$2
- com.codepath.apps.restclienttemplate.TimelineActivity$3
- com.codepath.apps.restclienttemplate.TimelineActivity$4
+com/tweeter/assignment/TwitterClient.java
+ com.tweeter.assignment.TwitterClient
+com/tweeter/assignment/models/Tweet.java
+ com.tweeter.assignment.models.Tweet
+com/tweeter/assignment/TweetAdapter.java
+ com.tweeter.assignment.TweetAdapter
+ com.tweeter.assignment.TweetAdapter$ViewHolder
+com/tweeter/assignment/TwitterApp.java
+ com.tweeter.assignment.TwitterApp
+com/tweeter/assignment/EndlessRecyclerViewScrollListener.java
+ com.tweeter.assignment.EndlessRecyclerViewScrollListener
+com/tweeter/assignment/models/User.java
+ com.tweeter.assignment.models.User
+com/tweeter/assignment/TimelineActivity.java
+ com.tweeter.assignment.TimelineActivity
+ com.tweeter.assignment.TimelineActivity$1
+ com.tweeter.assignment.TimelineActivity$2
+ com.tweeter.assignment.TimelineActivity$3
+ com.tweeter.assignment.TimelineActivity$4
+com/tweeter/assignment/BuildConfig.java
+ com.tweeter.assignment.BuildConfig
+com/tweeter/assignment/ComposeActivity.java
+ com.tweeter.assignment.ComposeActivity
+ com.tweeter.assignment.ComposeActivity$1
+ com.tweeter.assignment.ComposeActivity$1$1
+ com.tweeter.assignment.ComposeActivity$2
+com/tweeter/assignment/LoginActivity.java
+ com.tweeter.assignment.LoginActivity
+ com.tweeter.assignment.LoginActivity$1
